@@ -112,7 +112,7 @@ def complex_2_radian(input):
 
 def complex_2_degree(input):
     '''
-    returns the angle complex number in radians.
+    returns the angle complex number in degrees.
 
     '''
     return npy.angle(input, deg=True)
